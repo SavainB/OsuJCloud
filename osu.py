@@ -97,6 +97,7 @@ if __name__ == "__main__":
     app.title("OSU!Cloud")
     ##root.overrideredirect(1)
     app.config(background='#302727')
+    app.iconbitmap('logo.ico')
     app.resizable(False, False)
     app.geometry("340x480")
     app.mainloop()
