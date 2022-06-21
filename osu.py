@@ -16,8 +16,6 @@ def SaveMap(str):
         name=""
         if file[0].isdigit():
             for i in file:
-                if (i == " "):
-                    break
                 name += i;
             tab.append(name)
             name =""
@@ -31,13 +29,20 @@ def dl(map_link):
         lines = f.readlines()
         for line in lines:
             name=""
+            nom=""
             cout +=1
             for i in line:
                 if i.isdigit():
+                    if i == " ":
+                        break
                     name +=str(i)
+            for i in line:
+                if i =="\n":
+                    break
+                nom +=str(i)
             URL = des + name
             response = requests.get(URL)
-            open(str(cout)+".osz", "wb").write(response.content)
+            open(str(nom)+".osz", "wb").write(response.content)
             time.sleep(2)
 def select_directory():
     folder_selected = filedialog.askdirectory()
