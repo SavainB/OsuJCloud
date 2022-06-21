@@ -1,8 +1,8 @@
-<p align="center"><a href="https://newpipe.net"><img src="app/src/main/res/mipmap-hdpi/ic_launcher_alt_round.png" width="150"></a></p> 
+<p align="center"><a href="[https://newpipe.net](https://github.com/SavainB/OsuJCloud/)"><img src="logo.ico" width="150"></a></p> 
 <h2 align="center"><b>OSU!Cloud</b></h2>
 <h4 align="center">Un moyen simple et rapide pour sauvegarder ces map sans probleme</h4>
 
-<p align="center"><a href="https://f-droid.org/packages/org.schabi.newpipe/"><img src="app/src/main/res/mipmap-hdpi/ic_launcher_alt_round.png" alt="Altcode" height=80/></a></p>
+<p align="center"><a href="[https://f-droid.org/packages/org.schabi.newpipe/](https://github.com/SavainB/OsuJCloud)"><img src="[app/src/main/res/mipmap-hdpi/ic_launcher_alt_round.png](https://github.com/SavainB/OsuJCloud/)" alt="Altcode" height=80/></a></p>
 <hr>
 <p align="center"><a href="#screenshots">Screenshots</a> &bull; <a href="#description">Description</a> &bull; <a href="#features">Features</a> &bull; <a href="#installation-and-updates">Installation and updates</a> &bull;<a href="#donate">Donate</a></p>
 <hr>
